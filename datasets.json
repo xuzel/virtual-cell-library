@@ -1,0 +1,47 @@
+[
+  {
+    "id": "scbasecount",
+    "name": "scBaseCount",
+    "kind": "观测数据",
+    "organism": "多物种",
+    "scale": "5亿+",
+    "desc": "统一处理的单细胞 RNA 测序资源，为细胞状态建模与跨研究整合提供基础。",
+    "tags": "单细胞 RNA-seq 表达矩阵 组织 疾病 SRA 基础模型",
+    "source": "Arc Institute · 公共研究数据汇编",
+    "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas/tree/main/scBaseCount",
+    "path": "gs://arc-institute-virtual-cell-atlas/scbasecount/",
+    "size": "39.5 TiB",
+    "use": "细胞状态建模、跨研究整合",
+    "note": "汇编来源为公开研究；实际样本信息与质量需查阅元数据。"
+  },
+  {
+    "id": "tahoe",
+    "name": "Tahoe-100M",
+    "kind": "药物扰动",
+    "organism": "人类",
+    "scale": "1亿",
+    "desc": "记录药物处理后的单细胞转录响应，连接化学扰动与细胞状态变化。",
+    "tags": "药物 小分子 癌症 细胞系 转录响应 扰动",
+    "source": "Tahoe · Arc Virtual Cell Atlas 收录",
+    "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas/tree/main/tahoe-100M",
+    "path": "gs://arc-institute-virtual-cell-atlas/tahoe100M/",
+    "size": "316 GiB",
+    "use": "药物响应与跨细胞背景预测",
+    "note": "约 6 万次药物扰动实验，覆盖 50 个癌症模型和 1,100 多种药物处理。"
+  },
+  {
+    "id": "challenge",
+    "name": "Virtual Cell Challenge 2025",
+    "kind": "扰动基准",
+    "organism": "人类",
+    "scale": "H1 hESC",
+    "desc": "在人胚胎干细胞系中测量扰动响应，提供模型训练、验证与测试资源。",
+    "tags": "基因 扰动 基准 验证 测试 干细胞 H1",
+    "source": "Arc Institute · Virtual Cell Challenge",
+    "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas/tree/main/virtual-cell-challenge",
+    "path": "gs://arc-institute-virtual-cell-atlas/virtual-cell-challenge/",
+    "size": "5.3 TiB",
+    "use": "扰动预测与模型评估",
+    "note": "包含训练、验证与留出测试资源。总容量主要来自原始 FASTQ；请按所需分区访问。"
+  }
+]
